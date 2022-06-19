@@ -67,7 +67,7 @@ function Login({ providers }) {
                   onClick={signIn}
                   className="flex-grow rounded-md p-2 text-lg text-blue-700 bg-white"
                 >
-                  Log in with Facebook
+                  Log in with Google
                 </button>
               </div>
               <div className="flex justify-center items-center mt-2">
