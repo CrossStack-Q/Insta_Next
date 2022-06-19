@@ -67,7 +67,7 @@ function Login({ providers }) {
                   onClick={signIn}
                   className="flex-grow rounded-md p-2 text-lg text-blue-700 bg-white"
                 >
-                  Log in with Google
+                  Log in with <span className="text-blue-600">G</span><span className="text-red-500">O</span><span className="text-yellow-700">O</span><span className="text-blue-600">G</span><span className="text-green-600">L</span><span className="text-red-500">E</span>
                 </button>
               </div>
               <div className="flex justify-center items-center mt-2">
