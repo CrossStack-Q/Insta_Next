@@ -57,7 +57,7 @@ function Login({ providers }) {
                 </div>
               </div>
               <div className="flex justify-center items-center m-7">
-                <button className="flex-grow rounded-md p-2 bg-red-500">
+                <button onClick={signIn} className="flex-grow rounded-md p-2 bg-red-500">
                   Log In
                 </button>
               </div>
