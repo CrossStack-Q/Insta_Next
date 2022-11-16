@@ -79,7 +79,9 @@ function Login({ providers }) {
             <div className="flex justify-center items-center bg-white p-12 pt-3 pb-3 md:ml-10 md:mr-10 rounded-md mt-3">
               <p className="flex-grow">
                 Don't have an account?{" "}
+                  <button onClick={signIn} >
                 <span className="text-blue-500 cursor-pointer">Sign up</span>
+                  </button>
               </p>
             </div>
           </div>
